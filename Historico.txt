@@ -1,0 +1,93 @@
+    1  sudo
+    2  su
+    3  clear
+    4  ls
+    5  cd 'Área de trabalho'/
+    6  ls
+    7  cd Avaliação\ 03\ -\ Arthur\ Hortmann/
+    8  ls
+    9  clear
+   10  git init
+   11  sudo apt install git
+   12  git init
+   13  cls
+   14  clear
+   15  ps aux | grep 7151
+   16  sudo systemctl stop unattended-upgrades
+   17  CLEAR
+   18  clear
+   19  git init
+   20  clear
+   21  sudo apt install git
+   22  clear
+   23  ls
+   24  clear
+   25  git init
+   26  ls
+   27  ls -a
+   28  rm -rf .git
+   29  ls
+   30  ls -a
+   31  clear
+   32  git config --global init.defaultBranch main
+   33  clear
+   34  git init
+   35  ls
+   36  ls -a
+   37  git status
+   38  nano index.html
+   39  cat index.html 
+   40  git status
+   41  git add Relatorio.odt
+   42  git add index.html
+   43  git commit -m "Parte 1 - Texto de apresentação do tema escolhido"
+   44  git config --global user.email "arthur.hcbueno@gmail.com"
+   45  git config --global user.name "Arthur Hortmann"
+   46  git commit -m "Parte 1 - Texto de apresentação do tema escolhido"
+   47  git log
+   48  mkdir Imagens
+   49  ls
+   50  ls Imagens/
+   51  nano index.html
+   52  cat index.html
+   53  git status
+   54  git add Imagems/
+   55  git add Imagems/*
+   56  git add Imagens/
+   57  git add index.html
+   58  git status
+   59  git commit -m "Parte 2 - Inserção de imagens e criação de um diretório específico para elas"
+   60  git log
+   61  git status
+   62  nano index.html
+   63  git status
+   64  git add *
+   65  git commit -m "Parte 3 - Adição de informações de quem construiu a página e de um link para um site de referência sobre o tema"
+   66  git status
+   67  git log
+   68  mkdir Diretorio
+   69  cat > Texto.txt
+   70  ls
+   71  git add *
+   72  git commit -m "Parte 4 - Adição de diretório e arquivo .txt nesse diretório"
+   73  git status
+   74  git rm Texto.txt
+   75  git rm Diretorio
+   76  ls
+   77  git rm -r Diretorio
+   78  rm -rf Diretorio
+   79  ls
+   80  git status
+   81  git add *
+   82  git status
+   83  git commit -m "Parte 5 - Deleção de um arquivo e de um diretório do repositório Git"
+   84  git status
+   85  git log
+   86  utfpr@GP-LAB4-W1003:~/Área de trabalho/Avaliação 03 - Arthur Hortmann$ git rm Diretorio
+   87  fatal: pathspec 'Diretorio' não encontrou nenhum arquivo
+   88  utfpr@GP-LAB4-W1003:~/Área de trabalho/Avaliação 03 - Arthur Hortmann$ ls
+   89  Diretorio  Imagens  index.html  Relatorio.odt
+   90  utfpr@GP-LAB4-W1003:~/Área de trabalho/Avaliação 03 - Arthur Hortmann$ git rm -r Diretorio
+   91  fatal: pathspec 'Diretorio' não encontrou nenhum arquivo
+   92  history
+   93  history > Historico.txt
